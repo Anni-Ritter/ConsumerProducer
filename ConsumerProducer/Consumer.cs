@@ -16,7 +16,6 @@ namespace ConsumerProducer
                 {
                     StaticFunction.SemConsumer.WaitOne();
 
-                    //Console.WriteLine(StaticFunction.Product.Count.ToString());
                     ConsoleHelper.ProductBuy();
                     Thread.Sleep(1000);
                     StaticFunction.Product.Dequeue();
